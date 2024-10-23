@@ -12,7 +12,7 @@ public class FindDuplicates {
 		HashSet<Integer> hashSet = new HashSet<>();
 		for (int num : n) {
 			if(!hashSet.add(num)) {
-
+        
 				System.out.println("duplicate found"+ num);
 			}
 			
