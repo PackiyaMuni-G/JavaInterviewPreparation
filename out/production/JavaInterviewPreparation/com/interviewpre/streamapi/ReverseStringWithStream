@@ -1,0 +1,17 @@
+package com.interviewpre.streamapi;
+
+public class ReverseByStreamReduce {
+    public static void main(String[] args) {
+        String input = "Muni";
+        // Use stream and reduce to reverse the string
+        String reversed = input.chars()                     // Convert string to IntStream (unicode)
+                                                     
+            .mapToObj(c -> String.valueOf((char) c))         // Convert each int to its corresponding String character
+            .reduce("", (s, c) -> c + s);                     // Accumulate in reverse order
+        
+        System.out.println("Reversed String: " + reversed);
+
+        //mapToObj is method of IntStrream interface which is used to convert the int stream to char.
+        //valueOf is static method  of String class which is used to char(M) to string("M"). 
+    }
+}

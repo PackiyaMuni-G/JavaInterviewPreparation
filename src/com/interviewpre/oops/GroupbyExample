@@ -1,0 +1,46 @@
+ class Employee{
+    String name;
+    int age;
+    String designation;
+
+    public Employee(String name, int age, String designation) {
+        this.name = name;
+        this.age = age;
+        this.designation = designation;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+public class Main{
+    public static void main(String[] args) {
+        List<Employee> employees = Arrays.asList(
+            new Employee("Alice", 30, "Developer"),
+            new Employee("Bob", 25, "Designer"),
+            new Employee("Charlie", 35, "Manager"),
+            new Employee("David", 28, "Developer"),
+            new Employee("Eve", 22, "Designer")
+        );
+
+        Map<String, Long> designationCount = employees.stream()
+            .collect(Collectors.groupingBy(
+                Employee::getDesignation,
+                Collectors.counting()
+            ));
+
+        // Print the result
+        designationCount.forEach((designation, count) ->
+            System.out.println(designation + ": " + count));
+        
+}
+
+}
