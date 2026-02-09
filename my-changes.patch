@@ -1,0 +1,261 @@
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+index 26d3352..0000000
+--- a/.idea/.gitignore
++++ /dev/null
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+diff --git a/.idea/.name b/.idea/.name
+deleted file mode 100644
+index d3fae60..0000000
+--- a/.idea/.name
++++ /dev/null
+@@ -1 +0,0 @@
+-InterviewPreparation
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+index ebe0173..07115cd 100644
+--- a/.idea/misc.xml
++++ b/.idea/misc.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/classes" />
++    <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/.project b/.project
+index 1ec0224..c74e255 100644
+--- a/.project
++++ b/.project
+@@ -14,4 +14,15 @@
+ 	<natures>
+ 		<nature>org.eclipse.jdt.core.javanature</nature>
+ 	</natures>
++	<filteredResources>
++		<filter>
++			<id>1744815457421</id>
++			<name></name>
++			<type>30</type>
++			<matcher>
++				<id>org.eclipse.core.resources.regexFilterMatcher</id>
++				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
++			</matcher>
++		</filter>
++	</filteredResources>
+ </projectDescription>
+diff --git a/bin/com/interviewpre/oops/Address.class b/bin/com/interviewpre/oops/Address.class
+deleted file mode 100644
+index ff62ffc..0000000
+Binary files a/bin/com/interviewpre/oops/Address.class and /dev/null differ
+diff --git a/bin/com/interviewpre/oops/DeepcopyExample.class b/bin/com/interviewpre/oops/DeepcopyExample.class
+deleted file mode 100644
+index 124f0ed..0000000
+Binary files a/bin/com/interviewpre/oops/DeepcopyExample.class and /dev/null differ
+diff --git a/bin/com/interviewpre/oops/Example.class b/bin/com/interviewpre/oops/Example.class
+index cdb52f7..9a7c07d 100644
+Binary files a/bin/com/interviewpre/oops/Example.class and b/bin/com/interviewpre/oops/Example.class differ
+diff --git a/bin/com/interviewpre/oops/Person.class b/bin/com/interviewpre/oops/Person.class
+deleted file mode 100644
+index 6e31366..0000000
+Binary files a/bin/com/interviewpre/oops/Person.class and /dev/null differ
+diff --git a/bin/com/interviewpre/streamapi/AvgList.class b/bin/com/interviewpre/streamapi/AvgList.class
+index 16d05d3..85ec71a 100644
+Binary files a/bin/com/interviewpre/streamapi/AvgList.class and b/bin/com/interviewpre/streamapi/AvgList.class differ
+diff --git a/bin/com/interviewpre/streamapi/CharFrequency.class b/bin/com/interviewpre/streamapi/CharFrequency.class
+index 66d9dcb..ca4fb60 100644
+Binary files a/bin/com/interviewpre/streamapi/CharFrequency.class and b/bin/com/interviewpre/streamapi/CharFrequency.class differ
+diff --git a/bin/com/interviewpre/streamapi/ConcatString.class b/bin/com/interviewpre/streamapi/ConcatString.class
+index d34cb7b..d3e35e6 100644
+Binary files a/bin/com/interviewpre/streamapi/ConcatString.class and b/bin/com/interviewpre/streamapi/ConcatString.class differ
+diff --git a/bin/com/interviewpre/streamapi/Panlindrome.class b/bin/com/interviewpre/streamapi/Panlindrome.class
+index 876a9ac..ac1ae57 100644
+Binary files a/bin/com/interviewpre/streamapi/Panlindrome.class and b/bin/com/interviewpre/streamapi/Panlindrome.class differ
+diff --git a/src/com/interviewpre/oops/DeepcopyExample.java b/src/com/interviewpre/oops/DeepcopyExample.java
+index f51c6ea..1889eee 100644
+--- a/src/com/interviewpre/oops/DeepcopyExample.java
++++ b/src/com/interviewpre/oops/DeepcopyExample.java
+@@ -1,74 +1,10 @@
+-// Address class implementing Cloneable for deep copy
+-public class Address implements Cloneable {
+-    private String city;
+-
+-    // Constructor
+-    public Address(String city) {
+-        this.city = city;
+-    }
+-
+-    // Override clone() to allow deep copy
+-    @Override
+-    protected Object clone() throws CloneNotSupportedException {
+-        return super.clone(); // Shallow copy is fine for Address as it only contains immutable fields
+-    }
+-
+-    // Getter for city
+-    public String getCity() {
+-        return city;
+-    }
+-
+-    @Override
+-    public String toString() {
+-        return "Address: " + city;
+-    }
+-}
+-
+-// Person class implementing Cloneable for deep copy
+- class Person  {
+-    private String name;
+-    private Address address;
+-
+-    // Constructor
+-    public Person(String name, Address address) {
+-        this.name = name;
+-        this.address = address;
+-    }
+-
+-    // Override clone() to perform deep copy
+-    @Override
+-    protected Object clone() throws CloneNotSupportedException {
+-        Person cloned = (Person) super.clone(); // Shallow copy of Person
+-        cloned.address = (Address) address.clone(); // Deep copy of Address
+-        return cloned;
+-    }
+-
+-    // Getter for address
+-    public Address getAddress() {
+-        return address;
+-    }
+-
+-    @Override
+-    public String toString() {
+-        return "Person: " + name + ", " + address;
+-    }
++// Address copy constructor
++public Address(Address original) {
++    this.city = original.city;
+ }
+ 
+-// Main class to test deep copy
+-public class DeepcopyExample {
+-    public static void main(String[] args) throws CloneNotSupportedException {
+-        // Create an Address object
+-        Address address = new Address("New York");
+-
+-        // Create a Person object with the address
+-        Person person1 = new Person("John", address);
+-
+-        // Clone the person1 (deep copy)
+-        Person person2 = (Person) person1.clone();
+-
+-        // Change the address of person2
+-        person2.getAddress().clone(); // Deep copy ensures separate Address objects
+-
+-        // Print both persons to see if they have independent addresses
+-        System.out.println(person1); // Output: Person: John, Address: New York
+-    }}
++// Person copy constructor
++public Person(Person original) {
++    this.name = original.name; // Assuming name is immutable or deep copying is not needed
++    this.address = new Address(original.address); // Deep copy
++}
+\ No newline at end of file
+diff --git a/src/com/interviewpre/oops/Example.java b/src/com/interviewpre/oops/Example.java
+index f7abd31..10e4a8f 100644
+--- a/src/com/interviewpre/oops/Example.java
++++ b/src/com/interviewpre/oops/Example.java
+@@ -2,6 +2,7 @@ package com.interviewpre.oops;
+ 
+ public class Example {
+ 	public static void main(String[] args) {
++
+ 		System.out.println("Hi");
+ 	}
+ 
+diff --git a/src/com/interviewpre/streamapi/AvgList.java b/src/com/interviewpre/streamapi/AvgList.java
+index ebdf28a..168f9a1 100644
+--- a/src/com/interviewpre/streamapi/AvgList.java
++++ b/src/com/interviewpre/streamapi/AvgList.java
+@@ -9,6 +9,7 @@ public class AvgList {
+ 	public static void main(String[] args) {
+ 	List<Integer> intlist = Arrays.asList(1,2,3,4,5);
+ 	OptionalDouble average = intlist.stream()
++
+ 	.mapToDouble(Integer::doubleValue)
+ 	.average();
+ 	System.out.println(average.isPresent()?average.getAsDouble():"N/A");
+diff --git a/src/com/interviewpre/streamapi/CharFrequency.java b/src/com/interviewpre/streamapi/CharFrequency.java
+index 5c078c9..6ae7651 100644
+--- a/src/com/interviewpre/streamapi/CharFrequency.java
++++ b/src/com/interviewpre/streamapi/CharFrequency.java
+@@ -3,17 +3,21 @@ package com.interviewpre.streamapi;
+ import java.util.Map;
+ import java.util.function.Function;
+ import java.util.stream.Collectors;
+-;
+ 
+-public class CharFrequency {
+ 
+-	public static void main(String[] args) {
+-	String input="java";
+-	 Map<Integer, Long> freq = input.chars()
+-			.mapToObj(c -> c)
+-			.collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+-	System.out.println(freq);
+ 
+-	}
++			public class CharFrequency {
++			
++				public static void main(String[] args) {
++					String input = "java";
++					Map<Character, Long> freq = input.chars()
++							.mapToObj(c -> (char) c) // Convert Unicode to character
++							.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
++					
++					freq.forEach((character, count) -> System.out.println(character + "=" + count));
++				}
++			}
++
++	
++
+ 
+-}
+diff --git a/src/com/interviewpre/streamapi/ConcatString.java b/src/com/interviewpre/streamapi/ConcatString.java
+index 01eb4a1..5fe9f98 100644
+--- a/src/com/interviewpre/streamapi/ConcatString.java
++++ b/src/com/interviewpre/streamapi/ConcatString.java
+@@ -9,6 +9,8 @@ public class ConcatString {
+ 	public static void main(String[] args) {
+ 		List<String> StringList = Arrays.asList("lemon","mango","apple","kiwi","banana","cucumber","strawberry");
+          String concatString = StringList.stream()
++         
++         
+           
+ //           .map(s -> s.concat(""))
+ //           .forEach(System.out::print);
+diff --git a/src/com/interviewpre/streamapi/Panlindrome.java b/src/com/interviewpre/streamapi/Panlindrome.java
+index a7fde0e..3e2ccfb 100644
+--- a/src/com/interviewpre/streamapi/Panlindrome.java
++++ b/src/com/interviewpre/streamapi/Panlindrome.java
+@@ -6,9 +6,11 @@ import java.util.List;
+ import java.util.stream.IntStream;
+ 
+ public class Panlindrome {
+-   public static void main(String[] args) {
+-	List<String> Stringlist = Arrays.asList("apple", "banana", "kiwi", "banana", "apple");
+-	
+-	.IntStream.range(0, strings)
+-	
+-}
++	public static void main(String[] args) {
++		List<String> Stringlist = Arrays.asList("apple", "banana", "kiwi", "banana", "apple");
++
++		List<String> strings = Stringlist;
++		IntStream.range(0, strings.size());
++
++	}
++}
+\ No newline at end of file

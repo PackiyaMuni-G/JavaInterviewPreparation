@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="042494b1-1951-4a01-b738-fa97f0d12161" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/BifunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/CheckPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/DeepcopyExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/oops/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/AvgList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/AvgList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/CharFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/CharFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/ConcatString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/ConcatString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/Panlindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/Panlindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/oops/DeepcopyExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/oops/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/oops/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/AvgList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/AvgList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/CharFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/CharFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/ConcatString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/ConcatString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/Panlindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/Panlindrome.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vlgGe6JJBy0NS3sErTRB2PdViw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlbhaSorting.executor": "Run",
+    "Application.AvgList.executor": "Run",
+    "Application.Avgnum.executor": "Run",
+    "Application.BifunctionExample.executor": "Run",
+    "Application.CheckFibo.executor": "Run",
+    "Application.CheckPrime.executor": "Run",
+    "Application.CopyconstructorExample.executor": "Run",
+    "Application.DeepcopyExample.executor": "Run",
+    "Application.EmptyString.executor": "Run",
+    "Application.FindNonRepeat.executor": "Run",
+    "Application.MaxiValue.executor": "Run",
+    "Application.NewSum.executor": "Run",
+    "Application.Panlindrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.CheckFibo">
+    <configuration name="AlbhaSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.AlbhaSorting" />
+      <module name="JavaInterviewPreparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewpre.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckFibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.CheckFibo" />
+      <module name="JavaInterviewPreparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewpre.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.CheckPrime" />
+      <module name="JavaInterviewPreparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewpre.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNonRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.FindNonRepeat" />
+      <module name="JavaInterviewPreparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewpre.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxiValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.MaxiValue" />
+      <module name="JavaInterviewPreparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewpre.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CheckFibo" />
+        <item itemvalue="Application.CheckPrime" />
+        <item itemvalue="Application.FindNonRepeat" />
+        <item itemvalue="Application.AlbhaSorting" />
+        <item itemvalue="Application.MaxiValue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="042494b1-1951-4a01-b738-fa97f0d12161" name="Changes" comment="" />
+      <created>1744724983109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744724983109</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/interviewpre/streamapi/CheckPalindrome.java</url>
+          <line>3</line>
+          <properties class="CheckPalindrome" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
