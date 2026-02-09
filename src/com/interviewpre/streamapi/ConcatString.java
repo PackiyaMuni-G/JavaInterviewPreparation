@@ -9,6 +9,8 @@ public class ConcatString {
 	public static void main(String[] args) {
 		List<String> StringList = Arrays.asList("lemon","mango","apple","kiwi","banana","cucumber","strawberry");
          String concatString = StringList.stream()
+         
+         
           
 //           .map(s -> s.concat(""))
 //           .forEach(System.out::print);
