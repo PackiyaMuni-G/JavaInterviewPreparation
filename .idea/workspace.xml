@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="042494b1-1951-4a01-b738-fa97f0d12161" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/BifunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/CheckPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/DeepcopyExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/oops/Example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/oops/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/AvgList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/AvgList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/CharFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/CharFrequency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/ConcatString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/ConcatString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/Panlindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/interviewpre/streamapi/Panlindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/oops/DeepcopyExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/oops/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/oops/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/AvgList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/AvgList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/CharFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/CharFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/ConcatString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/ConcatString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interviewpre/streamapi/Panlindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interviewpre/streamapi/Panlindrome.java" afterDir="false" />
+    <list default="true" id="042494b1-1951-4a01-b738-fa97f0d12161" name="Changes" comment="added a interviw  program using stream api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +20,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Packiya Muni &lt;munijav45@gmail.com&gt;" />
+        <option value="PackiyaMuni-G &lt;dumuni007@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PackiyaMuni-G&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PackiyaMuni-G/JavaInterviewPreparation.git&quot;,
+    &quot;accountId&quot;: &quot;6e472280-0c34-4f2f-97d9-0fb50ab790b6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -53,26 +53,40 @@
   "keyToString": {
     "Application.AlbhaSorting.executor": "Run",
     "Application.AvgList.executor": "Run",
+    "Application.AvgString.executor": "Run",
     "Application.Avgnum.executor": "Run",
     "Application.BifunctionExample.executor": "Run",
     "Application.CheckFibo.executor": "Run",
     "Application.CheckPrime.executor": "Run",
+    "Application.ContainxPrefix.executor": "Run",
     "Application.CopyconstructorExample.executor": "Run",
     "Application.DeepcopyExample.executor": "Run",
     "Application.EmptyString.executor": "Run",
     "Application.FindNonRepeat.executor": "Run",
+    "Application.FindSecondLargest.executor": "Run",
+    "Application.IntegertoArray.executor": "Run",
+    "Application.IsSorted.executor": "Run",
+    "Application.LongString.executor": "Run",
     "Application.MaxiValue.executor": "Run",
+    "Application.MostFrequentElement.executor": "Run",
     "Application.NewSum.executor": "Run",
     "Application.Panlindrome.executor": "Run",
+    "Application.PrdocutList.executor": "Run",
+    "Application.RemoveALL.executor": "Run",
+    "Application.RemoveDuplicate.executor": "Run",
+    "Application.SpringStartwith.executor": "Run",
+    "Application.SumofDigits.executor": "Run",
+    "Application.ThreadTrickey.executor": "Run",
+    "Application.ToLowerCase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CheckFibo">
-    <configuration name="AlbhaSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.AlbhaSorting" />
+  <component name="RunManager" selected="Application.ThreadTrickey">
+    <configuration name="IsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.IsSorted" />
       <module name="JavaInterviewPreparation" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckFibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.CheckFibo" />
+    <configuration name="RemoveALL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.RemoveALL" />
       <module name="JavaInterviewPreparation" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.CheckPrime" />
+    <configuration name="SumofDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.SumofDigits" />
       <module name="JavaInterviewPreparation" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNonRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.FindNonRepeat" />
+    <configuration name="ThreadTrickey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.multithtread.ThreadTrickey" />
       <module name="JavaInterviewPreparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interviewpre.streamapi.*" />
+          <option name="PATTERN" value="com.interviewpre.multithtread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxiValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.MaxiValue" />
+    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpre.streamapi.ToLowerCase" />
       <module name="JavaInterviewPreparation" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckFibo" />
-        <item itemvalue="Application.CheckPrime" />
-        <item itemvalue="Application.FindNonRepeat" />
-        <item itemvalue="Application.AlbhaSorting" />
-        <item itemvalue="Application.MaxiValue" />
+        <item itemvalue="Application.ThreadTrickey" />
+        <item itemvalue="Application.RemoveALL" />
+        <item itemvalue="Application.IsSorted" />
+        <item itemvalue="Application.SumofDigits" />
+        <item itemvalue="Application.ToLowerCase" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +169,48 @@
       <option name="presentableId" value="Default" />
       <updated>1744724983109</updated>
     </task>
+    <task id="LOCAL-00001" summary="added a interviw  program using stream api">
+      <option name="closed" value="true" />
+      <created>1770640313170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770640313170</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added a interviw  program using stream api">
+      <option name="closed" value="true" />
+      <created>1770640355726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770640355726</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added a interviw  program using stream api">
+      <option name="closed" value="true" />
+      <created>1770640371872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770640371872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added a oldestEmployee program using stream api" />
+    <MESSAGE value="added a interviw  program using stream api" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a interviw  program using stream api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -163,11 +218,20 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/interviewpre/streamapi/CheckPalindrome.java</url>
           <line>3</line>
-          <properties class="CheckPalindrome" method="main">
+          <properties class="com.interviewpre.streamapi.CheckPalindrome" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/interviewpre/streamapi/MostFrequentElement.java</url>
+          <line>9</line>
+          <properties class="com.interviewpre.streamapi.MostFrequentElement" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
